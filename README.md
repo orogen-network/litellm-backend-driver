@@ -1,6 +1,6 @@
 # litellm-orogen-provider
 
-LiteLLM provider plugin routing through the Orogen gateway. **Strategic acquisition channel** per plan §5 — any LiteLLM user can target the network with one line of config.
+LiteLLM provider plugin routing through the Orogen gateway. **Strategic acquisition channel** — any LiteLLM user can target the network with one line of config.
 
 ## Install
 
