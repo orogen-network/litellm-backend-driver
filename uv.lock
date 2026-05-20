@@ -993,22 +993,11 @@ wheels = [
 [[package]]
 name = "mining-types"
 version = "0.1.0"
-source = { editable = "../mining-types" }
+source = { git = "https://github.com/orogen-network/mining-types.git?rev=9e6d3127ce85622c65d994843be57f7efcc632b4#9e6d3127ce85622c65d994843be57f7efcc632b4" }
 dependencies = [
     { name = "cryptography" },
     { name = "pydantic" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "cryptography", specifier = ">=42.0" },
-    { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10" },
-    { name = "pydantic", specifier = ">=2.7,<3.0" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
-    { name = "pytest-asyncio", marker = "extra == 'dev'", specifier = ">=0.23" },
-    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.4" },
-]
-provides-extras = ["dev"]
 
 [[package]]
 name = "multidict"
@@ -1195,7 +1184,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "httpx", specifier = ">=0.27" },
-    { name = "mining-types", editable = "../mining-types" },
+    { name = "mining-types", git = "https://github.com/orogen-network/mining-types.git?rev=9e6d3127ce85622c65d994843be57f7efcc632b4" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10" },
     { name = "openai", specifier = ">=1.40" },
     { name = "pydantic", specifier = ">=2.7" },
